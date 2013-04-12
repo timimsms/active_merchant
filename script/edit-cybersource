@@ -1,0 +1,2 @@
+#!/bin/sh
+mate lib/active_merchant/billing/integrations/cyber_source* test/unit/integrations/cyber_source_module_test.rb test/unit/integrations/helpers/cyber_source_helper_test.rb test/unit/integrations/notifications/cyber_source_notification_test.rb touch test/unit/integrations/returns/cyber_source_return_test.rb
